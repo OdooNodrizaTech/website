@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="assets_editor" inherit_id="website.assets_editor">
+		<xpath expr="." position="inside">
+			<link href="/website_noindex/static/css/styles.css" type="text/css"/>
+			<script type="text/javascript" src="/website_noindex/static/js/website_editor.js"></script>
+		</xpath>
+	</template>
+</odoo>

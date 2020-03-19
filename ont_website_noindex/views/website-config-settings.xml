@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_website_config_settings" model="ir.ui.view">
+            <field name="name">website.config.settings.website.noindex</field>
+            <field name="model">website.config.settings</field>
+            <field name="inherit_id" ref="website.view_website_config_settings"/>
+            <field name="arch" type="xml">
+                <group name="advanced" position="inside">
+                    <label for="id" string="Privacy"/>
+                    <div>
+                        <div>
+                            <field name="no_index"/>
+                            <label for="no_index"/>
+                        </div>
+                    </div>
+                </group>
+            </field>
+        </record>
+    </data>
+</openerp>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="noindex_nofollow" inherit_id="website.layout" name="Website noindex, nofollow">
+		<xpath expr="//meta[@name='generator']" position="before">
+			<meta t-if="website and website.no_index" name="robots" content="noindex, nofollow"/>
+		</xpath>
+	</template>
+</odoo>
