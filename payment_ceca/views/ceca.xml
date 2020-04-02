@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="ceca_acquirer_button">        
+        <form t-if="acquirer" t-att-action="tx_url" method="post" target="_self" enctype="application/x-www-form-urlencoded">
+            <input type="hidden" name="MerchantID" t-att-value="merchantid"/>
+            <input type="hidden" name="AcquirerBIN" t-att-value="acquirerbin"/>
+            <input type="hidden" name="TerminalID" t-att-value="terminalid" />
+            <input type="hidden" name="Exponente" t-att-value="exponente"/>
+            <input type="hidden" name="TipoMoneda" t-att-value="tipomoneda"/>
+            <input type="hidden" name="URL_OK" t-att-value="url_ok"/>
+            <input type="hidden" name="URL_NOK" t-att-value="url_nok"/>
+            <input type="hidden" name="Num_operacion" t-att-value="num_operacion"/>
+            <input type="hidden" name="Importe" t-att-value="importe"/>
+            <input type="hidden" name="Idioma" t-att-value="idioma"/>
+            <input type="hidden" name="Pago_soportado" t-att-value="pago_soportado"/>
+            <input type="hidden" name="Descripcion" t-att-value="descripcion"/>
+            <input type="hidden" name="Firma" t-att-value="firma"/>
+            <input type="hidden" name="Cifrado" t-att-value="cifrado"/>            
+            <button type="submit" width="100px" t-att-class="submit_class">
+                <img t-if="not submit_txt" src="/payment_ceca/static/src/img/ceca_icon.png"/>
+                <span t-if="submit_txt"><t t-esc="submit_txt"/> <span class="fa fa-long-arrow-right"/></span>                
+            </button>
+        </form>
+    </template>        
+</odoo>
