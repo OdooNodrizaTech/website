@@ -11,5 +11,5 @@ nombre | version
 
 ## Addons no soportados
 
-## website_noindex
+### website_noindex
 Ya está disponible la opción desde Sitio Web > Páginas Propiedades de la página > Publicar > Indexado (Si/No)
