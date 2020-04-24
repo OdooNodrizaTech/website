@@ -7,5 +7,9 @@ Addons
 ----------------
 nombre | version
 --- | ---
-[website_googletagmanager](website_googletagmanager/) | 10.0.1.0.0
-[website_noindex](website_noindex/) | 10.0.1.0.0
+
+
+## Addons no soportados
+
+## website_noindex
+Ya está disponible la opción desde Sitio Web > Páginas Propiedades de la página > Publicar > Indexado (Si/No)
