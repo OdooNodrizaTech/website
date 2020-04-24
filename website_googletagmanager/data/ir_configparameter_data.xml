@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<openerp>
-    <data noupdate="1">
-        <record id="google_tag_manager_key" model="ir.config_parameter">
-            <field name="key">google_tag_manager_key</field>
-            <field name="value">GTM-XXXX</field>
-        </record>                    
-    </data>
-</openerp>
