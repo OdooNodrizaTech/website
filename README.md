@@ -7,7 +7,7 @@ Addons
 ----------------
 nombre | version
 --- | ---
-
+[website_googletagmanager](website_googletagmanager/) | 12.0.1.0.0
 
 ## Addons no soportados
 
