@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/OdooNodrizaTech/website.svg?branch=12.0)](https://travis-ci.org/OdooNodrizaTech/website)
+[![Coverage Status](https://coveralls.io/repos/github/OdooNodrizaTech/website/badge.svg?branch=12.0)](https://coveralls.io/github/OdooNodrizaTech/website?branch=12.0)
 
 website
 =========
